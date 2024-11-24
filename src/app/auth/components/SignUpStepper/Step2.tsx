@@ -30,10 +30,10 @@ export const SignUpStepperTwo = ({ goBack, onSubmit }: any) => {
 
   const onSubmitForm = (values: any) => {
     const requestData: TYPES.MODELS.ONBOARDING.ISchoolInfo = {
-      schoolName: values?.schoolName,
+      name: values?.schoolName,
       country: values?.country,
       city: values?.city,
-      schoolAddress: values?.schoolAddress,
+      address: values?.schoolAddress,
       status: TYPES.CONSTANTS.STATUS.STATUS_OPTIONS_TYPE.ACTIVE,
     };
     dispatch(OnboardingModule.actions.setSchoolUserDataAction(requestData));
