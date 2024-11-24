@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next';
 
 const nextConfig = {
-  webpack(config) {
+  webpack(config: any) {
     config.module.rules.push({
       test: /\.svg$/,
       type: 'asset', // Utilise le type `asset`
