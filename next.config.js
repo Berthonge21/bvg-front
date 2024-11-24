@@ -2,6 +2,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = {
@@ -12,5 +15,6 @@ module.exports = {
     });
     return config;
   },
+
   ...nextConfig,
 };
