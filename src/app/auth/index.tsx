@@ -1,4 +1,4 @@
-import SignUpForm from '_app/bvg-school/auth/components/SignUpForm';
-import LoginForm from '_app/bvg-school/auth/components/LoginForm';
+import LoginForm from './components/LoginForm';
+import SignUpForm from './components/SignUpForm';
 
 export { SignUpForm, LoginForm };
