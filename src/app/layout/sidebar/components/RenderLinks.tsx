@@ -48,7 +48,7 @@ const RenderLinks: FC<IRenderLinks> = ({
   };
 
   const redirectToPath = (link: ILink): void => {
-    if (checkModulePermission(link)) {
+    if (checkModulePermission(link) && link.path) {
       navigate.push(link.path);
     }
     if (!sidebarConditionInverse) {
@@ -60,7 +60,7 @@ const RenderLinks: FC<IRenderLinks> = ({
       {links.map((link: ILink, index: number) => (
         <Flex
           direction="column"
-          key={index + link.path}
+          key={index + (link.path ?? '')}
           pe={!sideToggled ? { lg: '0px' } : { lg: '0px' }}>
           {!link.subItems && link?.path && (
             <SubMenu

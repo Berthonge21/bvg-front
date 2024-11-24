@@ -50,7 +50,8 @@ const Menu: FC<MenuProps> = ({
         width="8px"
         bg={
           itHasActiveChildLink(link.subItems) ||
-          (link.path ? isActiveLink(link.path) : false)
+          itHasActiveChildLink(link.subItems) ||
+          isActiveLink(link?.path ?? '')
             ? 'primary.500'
             : 'transparent'
         }
@@ -70,7 +71,8 @@ const Menu: FC<MenuProps> = ({
         pe={{ base: '1rem', md: '0.5rem' }}
         bg={
           itHasActiveChildLink(link.subItems) ||
-          (link.path ? isActiveLink(link.path) : false)
+          itHasActiveChildLink(link.subItems) ||
+          isActiveLink(link?.path ?? '')
             ? hexToRGB('primary', 0.1)
             : 'transparent'
         }
@@ -81,7 +83,8 @@ const Menu: FC<MenuProps> = ({
             height="18px"
             fill={
               itHasActiveChildLink(link.subItems) ||
-              (link.path ? isActiveLink(link.path) : false)
+              itHasActiveChildLink(link.subItems) ||
+              isActiveLink(link?.path ?? '')
                 ? Colors.primary
                 : Colors.grayScale
             }

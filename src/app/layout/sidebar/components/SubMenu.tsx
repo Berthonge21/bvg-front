@@ -60,7 +60,7 @@ const SubMenu: FC<SubMenuProps> = ({
       <Box
         height="100%"
         width="8px"
-        bg={isActiveLink(link.path) ? 'primary.500' : 'transparent'}
+        bg={isActiveLink(link.path ?? '') ? 'primary.500' : 'transparent'}
         borderRadius="12px"
         transition="all 300ms ease"
       />
@@ -71,15 +71,25 @@ const SubMenu: FC<SubMenuProps> = ({
         h="100%"
         borderRadius="5px"
         px="10px"
-        borderBottom={isActiveLink(link.path) ? '2px solid' : '0'}
-        borderColor={isActiveLink(link.path) ? 'primary.500' : 'transparent'}
-        bg={isActiveLink(link.path) ? hexToRGB('primary', 0.1) : 'transparent'}>
+        borderBottom={isActiveLink(link.path ?? '') ? '2px solid' : '0'}
+        borderColor={
+          isActiveLink(link.path ?? '') ? 'primary.500' : 'transparent'
+        }
+        bg={
+          isActiveLink(link.path ?? '')
+            ? hexToRGB('primary', 0.1)
+            : 'transparent'
+        }>
         <Box as="span">
           {link.icon && (
             <link.icon
               width="18px"
               height="18px"
-              fill={isActiveLink(link.path) ? Colors.primary : Colors.grayScale}
+              fill={
+                isActiveLink(link.path ?? '')
+                  ? Colors.primary
+                  : Colors.grayScale
+              }
             />
           )}
         </Box>
@@ -89,7 +99,7 @@ const SubMenu: FC<SubMenuProps> = ({
           }
           ms="1rem"
           {...toggledTextStyles}
-          {...setTextStyle(link.path)}>
+          {...setTextStyle(link.path ?? '')}>
           {t(link.label)}
         </Text>
       </Flex>
