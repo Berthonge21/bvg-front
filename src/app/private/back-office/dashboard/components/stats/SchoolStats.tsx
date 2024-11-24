@@ -22,11 +22,11 @@ const SchoolStats = () => {
     dispatch(UsersModule.actions.usersStatsSchoolsAction());
   }, [dispatch]);
 
-  const formatDataForChart = data => {
+  const formatDataForChart = (data: any) => {
     const months = generateMonthlyData();
     const counts = Array(12).fill(0);
 
-    data?.forEach(item => {
+    data?.forEach((item: { month: string; numberOfSchools: number }) => {
       const monthIndex = months?.indexOf(t('BAR_CHART.MONTHS.' + item.month));
       if (monthIndex !== -1) {
         counts[monthIndex] = item?.numberOfSchools;
