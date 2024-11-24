@@ -1,0 +1,113 @@
+.react-datepicker-wrapper {
+  width: 100%;
+  input {
+    width: 100%;
+    padding-inline-end: 19px;
+    height: 47px;
+    background: white;
+    border: 1px solid rgba(194,199,202, 0.5);
+    border-radius: 7px;
+    outline: 2px;
+    padding: 6px 10px 5px 30px;
+  }
+  input[disabled]{
+    background-color: rgba(110, 124, 124, 0.15);
+  }
+  .react-datepicker__calendar-icon {
+    top: calc(50% - 16px);
+  }
+}
+.react-datepicker-popper {
+  width: 100%;
+  .react-datepicker__header {
+    background: white;
+    border-bottom : unset;
+  }
+  .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    color: #000;
+    display: inline-block;
+    width: 13%;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    text-align: center;
+    margin: 0.166rem;
+  }
+  .react-datepicker {
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.5);
+    z-index: 99999;
+    position: absolute;
+  }
+  .react-datepicker__month-container {
+    float: unset;
+  }
+}
+.custom-day-name{
+  background-color: red;
+  &:hover{
+    background-color: red;
+  }
+}
+.react-datepicker__day--weekend{
+  background-color: #e9e9e9;
+}
+.react-datepicker__close-icon::after{
+  background-color: #1A3C8A;
+}
+.react-datepicker__day-name{
+  text-transform:  capitalize;
+  color: gray !important;
+}
+.react-datepicker{
+  font-family: 'lato-medium', serif;
+}
+.react-datepicker__current-month {
+  margin-bottom: 12px;
+  box-shadow: 0 4px 6px 0 #6E7C7C1A;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+.react-datepicker__day--selected{
+  background-color: #1A3C8A;
+  //color: white!important;
+  //&:hover{
+  //  background-color: #00A887;
+  //}
+}
+.react-datepicker__day , .react-datepicker__day-name {
+  width: 11% !important;
+  line-height: 2.7rem !important;
+  margin:  0.3rem !important;
+  font-size: 11px !important;
+}
+.react-datepicker__day--outside-month {
+  color: #1f2d3d73 !important;
+}
+.react-datepicker__navigation{
+  top: 6px !important;
+  .datepicker__navigation-icon{
+    &:before{
+      color: black;
+    }
+  }
+}
+.custom-header-date-picker{
+  font-size: 15px;
+}
+
+.time-option-date-picker{
+  .react-datepicker-popper {
+    min-width: max-content !important;
+    .react-datepicker__month-container {
+      float: left !important;
+    }
+    .react-datepicker {
+      position: relative;
+    }
+  }
+}
+

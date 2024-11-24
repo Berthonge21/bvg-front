@@ -1,0 +1,316 @@
+{
+  "SIDE_BAR": {
+    "DASHBOARD": "Tableau de bord",
+    "MANAGE_USERS": "Mes utilisateurs",
+    "MANAGE_ROLES": "Gestion des rôles",
+    "MANAGE_MODULE": "Modules",
+    "MANAGE_OFFERS": "Packs",
+    "MANAGE_STUDENTS": "Gestion des élèves",
+    "MANAGE_CLASSES": "Gestion des Classes",
+    "MANAGE_ADMIN": "Mon administration",
+    "MANAGE_STAFF": "Professeurs",
+    "HELP_CENTER": "Help Center",
+    "SETTINGS": "Parametres",
+    "PROFILE": "Mon Profil",
+    "LOG_OUT": "Deconnexion"
+  },
+  "HELP_CENTER": {
+    "TITLE": "Besoin d’une assistance?",
+    "DESCRIPTION": "Notre équipe est à votre disposition pour tout renseignement."
+  },
+  "PAGE": {
+    "OOPS": "Oups",
+    "NOT_FOUND": "Page non trouvée",
+    "REDIRECT_MESSAGE": "Nous sommes désolés, nous ne pouvons pas trouver la page que vous recherchez.   Vous allez être redirige vers la precedente page dans 5 secondes ou vous pouvez retourner à la page d'accueil en cliquant sur le bouton ci-dessous."
+  },
+  "AUTH": {
+    "WELCOME_BACK": "Connectez-vous à votre compte",
+    "DESCRIPTION": "Content de te revoir! veuillez entrer vos coordonnées",
+    "LOGIN": {
+      "PLACEHOLDER": {
+        "EMAIL": "Veuillez saisir votre adresse e-mail",
+        "PASSWORD": "Veuillez saisir votre mot de passe"
+      }
+    },
+    "EMAIL": "Email",
+    "PASSWORD": "Mot de passe",
+    "CONFIRM_PASSWORD": "Confirmer le mot de passe",
+    "INVALID_CREDENTIALS_MESSAGE": "Veuillez vérifier vos informations d'identification et réessayer",
+    "FORGOT_PASSWORD": "Mot de passe oublié?",
+    "CONNECT": "Se connecter",
+    "HAVE_AN_ACCOUNT": "Vous avez déjà un compte?",
+    "DONT_HAVE_AN_ACCOUNT": "Vous n'avez pas de compte?",
+    "SIGN_UP": "S'inscrire",
+    "SIGN_IN": "Se connecter"
+  },
+  "SIGNUP": {
+    "DESCRIPTION": {
+      "STEP_ONE": " Veuillez saisir vos informations et passer à l'étape suivante afin que nous puissions créer votre compte.",
+      "STEP_TWO": "Veuillez saisir les informations de votre établissement et passer à l'étape suivante ",
+      "STEP_THREE": "Terminez votre inscription en choisissant votre pack"
+    },
+    "PLACEHOLDER": {
+      "SCHOOL": "Entrer le nom de votre établissement",
+      "COUNTRY": "Selectionner votre pays",
+      "CITY": "Selectionner votre ville",
+      "ADDRESS": "Entrer votre adresse"
+    },
+    "USER_PROMOTER": "Promoteur",
+    "SCHOOL": "École",
+    "COUNTRY": "Pays",
+    "CITY": "Ville",
+    "ADDRESS": "Adresse",
+    "CHOOSE_PACKS": "Choisissez votre pack",
+    "FIRST_NAME": "Prénom",
+    "CONFIRM_PASSWORD": "Confirmer le mot de passe",
+    "LAST_NAME": "Nom",
+    "PHONE": "Téléphone"
+  },
+  "COMMON": {
+    "REQUIRED": "Obligatoire",
+    "REMEMBER_ME": "Se souvenir de moi",
+    "MIN_LENGTH": "{{count}} caractères minimum",
+    "CANCEL": "Annuler",
+    "CONFIRM": "Confirmer",
+    "INFORMATION": "Information",
+    "VALIDATE": "Valider",
+    "BACK": "Retour",
+    "NEXT": "Suivant",
+    "ALL": "Tous",
+    "SELECT_A_COUNTRY": "Sélectionnez un pays",
+    "FOLLOW_US": "Suivez-nous",
+    "ACTION": "Actions",
+    "FR: ": "Français ",
+    "EN: ": "English",
+    "GO_TO_PAGE": "Aller à la page",
+    "PAGE": "Page",
+    "TO": "à",
+    "ERROR_CONNEXION": "Erreur de connexion réessayer plus tard",
+    "UNAUTHORIZED": "Accèss non autorisé",
+    "NOTIFICATION": "Notification",
+    "FORBIDDEN": "Acccès interdit",
+    "SERVER_ERROR": "Error de connexion",
+    "NO_DATA_FOUND": "Aucune donnée trouvée",
+    "SUCCESS_OPERATION": "Opération réussie",
+    "STATUS": {
+      "ACTIVE": "Actif",
+      "INACTIVATE": "Inactif"
+    },
+    "RESET": "Réinitialiser",
+    "ADD": "Ajouter",
+    "REFRESH": "Rafraîchir les données",
+    "FILTER": "Filtrer",
+    "PAYMENT_STATUS": {
+      "TITLE": "Statut du paiement",
+      "INSTALLMENT_PAID": "Avance",
+      "PAID": "Payé",
+      "NO_PAID": "Non payé",
+      "INSCRIPTION_FEES": "Inscription",
+      "SCHOOLING": "Scolarité"
+    },
+    "DATE_FORMAT": "DD/MM/YYYY",
+    "SEX": {
+      "MALE": "Homme",
+      "FEMALE": "Femme"
+    }
+  },
+  "BAR_CHART": {
+    "PACKS_MOVEMENTS": "Taux de souscription aux packs",
+    "ACTIVITY": "Activité",
+    "BASIC": "Basic",
+    "STANDARD": "Standard",
+    "PREMIUM": "Premium",
+    "SCHOOLS": "Nombre d'écoles",
+    "NUMBER_OF_SCHOOLS_BY_MONTH": "Nombre d'écoles par mois",
+    "MONTHS": {
+      "January": "Janvier",
+      "February": "Février",
+      "March": "Mars",
+      "April": "Avril",
+      "May": "Mai",
+      "June": "Juin",
+      "July": "Juillet",
+      "August": "Août",
+      "September": "Septembre",
+      "October": "Octobre",
+      "November": "Novembre",
+      "December": "Décembre"
+    },
+    "HIGHER_SECONDARY": "Secondaire supérieur",
+    "PRIMARY": "Primaire",
+    "SECONDARY": "Secondaire",
+    "FINANCE_BY_CYCLE": "Finance par cycle",
+    "EXPECTED_AMOUNT": "Montant attendu",
+    "RECEIVED_AMOUNT": "Montant reçu",
+    "REMAINING_AMOUNT": "Montant restant"
+  },
+  "DONUT_CHART": {
+    "FINANCE_GLOBAL_AMOUNT": "Total des dépenses",
+    "FINANCE_INCOMES&OUTCOMES": "Revenus VS Dépenses",
+    "CATEGORY": {
+      "SCHOLARSHIP": "Scolarité",
+      "EXPENSES": "Dépenses",
+      "EXPENSES_MISCELLANEOUS": "Dépenses Diverses",
+      "REVENUES": "Revenus"
+    }
+  },
+  "OFFERS": {
+    "LIST": "Liste des Packs",
+    "TITLE": "Tarification simple et flexible",
+    "DESCRIPTION": "Notre système de tarification offre une gamme d'options pour répondre à vos exigences de gestion locative. Explorez nos plans et trouvez celui qui vous convient le mieux, sans compromis sur la qualité et la performance.",
+    "MODULE_LIST": "Liste des modules",
+    "FORMS": {
+      "CREATE": "Créer un pack",
+      "EDIT": "Modifier un pack",
+      "PACK_TYPE": "Type de pack",
+      "AMOUNT": "Montant",
+      "SELECT_MODULE": "Sélectionner un module",
+      "ADD_MODULE": "Ajouter un module"
+    },
+    "TYPE": {
+      "BASIC": "Basic",
+      "STANDARD": "Standard",
+      "PREMIUM": "Premium"
+    }
+  },
+  "DASHBOARD": {
+    "WELCOME": "Bienvenue sur BVG-INNOVATION School pour la bonne gestion de scolarité."
+  },
+  "USERS": {
+    "LIST": "Liste des utilisateurs",
+    "RECENT_USERS": "Recents utilisateurs inscrit",
+    "WELCOME_MESSAGE": "Bonjour et bienvenue,",
+    "ACTIVE_INACTIVE_TITLE": "Utilisateurs Actifs/Inactifs",
+    "TOTAL_ACTIVE_&_INACTIVE": "Total des utilisateurs",
+    "ACTIVE": "Actifs",
+    "INACTIVE": "Inactifs"
+  },
+  "ACTION_BUTTON": {
+    "EDIT": "Editer",
+    "DELETE": "Supprimer",
+    "VIEW": "Voir",
+    "CREATE": "Créer",
+    "ACTIVATE": "Activer",
+    "DEACTIVATE": "Désactiver",
+    "PAY": "Payer",
+    "DOWNLOAD": "Télécharger"
+  },
+  "MANAGE_MODULE": {
+    "NAME": "Nom",
+    "DESCRIPTION": "Description",
+    "FEATURE_NAME": "Nom de la fonctionnalité",
+    "FEATURE_DESCRIPTION": "Description de la fonctionnalité",
+    "ADD_FEATURES": "Ajouter des fonctionnalités",
+    "FEATURES": "Fonctionnalités",
+    "STATUS": "Statut"
+  },
+  "MODAL_ACTION": {
+    "ACTIVATE_TITLE": "Activer {{name}}",
+    "ACTIVATE_MESSAGE": "Voulez-vous vraiment activer {{name}}?",
+    "DEACTIVATE_TITLE": "Désactiver {{name}}",
+    "DEACTIVATE_MESSAGE": "Voulez-vous vraiment désactiver {{name}}?",
+    "DETAILS_TITLE": "Détails {{name}}",
+    "DELETE_TITLE": "Supprimer {{name}}",
+    "DELETE_MESSAGE": "Voulez-vous vraiment supprimer {{name}}?"
+  },
+  "STUDENT": {
+    "STUDENT": "Élève",
+    "STUDENT_ID": "Identifiant élève",
+    "FIRST_NAME": "Prénom",
+    "LAST_NAME": "Nom",
+    "BIRTHDATE": "Date de naissance",
+    "BIRTHDATE_PLACE": "Lieu de naissance",
+    "SEX": "Sexe",
+    "EMAIL": "Email",
+    "PHONE": "Téléphone 1",
+    "PHONE2": "Téléphone 2",
+    "ADDRESS": "Adresse",
+    "GRADE": "Niveau de scolarité",
+    "SCHOOL": "Établissement scolaire",
+    "SCHOOL_NAME": "Nom établissement scolaire",
+    "CLASS": "Classe",
+    "CLASS_NAME": "Nom de la classe",
+    "PARENT_INFORMATION": "Informations des parents",
+    "PERSONAL_INFORMATION": "Informations personnelles",
+    "PROFESSIONAL_INFORMATION": "Informations professionnelles",
+    "ADD_TITLE": "Ajouter un élève",
+    "EDIT_TITLE": "Modifier un élève",
+    "REGISTRATION_DATE": "Date d'inscription",
+    "REGISTRATION_FEES": "Frais d'inscription",
+    "REGISTRATION_FEES_AMOUNT": "Montant des frais",
+    "TRANSACTION": {
+      "TITLE": "Liste des Paiements effectuées",
+      "MONTHS": "Choisir le mois",
+      "PAYMENT_TYPE": "Type de paiement",
+      "PAYMENT_DATE": "Date de paiement",
+      "AMOUNT_TO_PAY": "Montant a payer",
+      "RECEIVED_AMOUNT": "Montant recu",
+      "DETAIL": "Veuillez renseigner les informations relatives au paiement",
+      "ADD": "Ajouter un paiement",
+      "EDIT": "Modifier un paiment",
+      "DESCRIPTION": "Description"
+    }
+  },
+  "MANAGE_CLASSES": {
+    "FORMS": {
+      "ADD_TITLE": "Ajouter une classe",
+      "EDIT_TITLE": "Modifier une classe",
+      "NAME": "Nom de la classe",
+      "AMOUNT": "Montant"
+    },
+    "AMOUNT_BY_MONTHS": "Prix mensuel de la classe",
+    "STUDENT_TOTAL": "Nombre d'élèves",
+    "STUDENT_LIST": "Liste des élèves"
+  },
+  "ROLE_MANAGEMENT": {
+    "CATEGORY_LIST": {
+      "MANAGE-STUDENTS": "Gestion des élèves",
+      "TRANSACTION": "Gestion des transactions pour les eleves",
+      "COLLABORATOR-MANAGEMENT": "Gestion des utilisateurs"
+    },
+    "FEATURE_LIST": {
+      "CREATE-STUDENTS": "Créer un élève",
+      "UPDATE-STUDENTS": "Modifier un élève",
+      "DELETE-STUDENTS": "Supprimer un élève",
+      "CREATE-TRANSACTION": "Créer une transaction",
+      "UPDATE-TRANSACTION": "Modifier une transaction",
+      "DELETE-TRANSACTION": "Supprimer une transaction",
+      "ADD-COLLABORATOR": "Ajouter un utilisateur",
+      "UPDATE-COLLABORATOR": "Modifier un utilisateur",
+      "DELETE-COLLABORATOR": "Supprimer un utilisateur",
+      "VIEW-LIST-COLLABORATOR": "Voir la liste de l'administration",
+      "PAY-COLLABORATOR": "Payer un utilisateur"
+    },
+    "HELP_MESSAGE": "Sélectionnez les permissions que vous souhaitez accorder a l’utilisateur que vous venez d'ajouter.",
+    "PERMISSIONS": "Permissions",
+    "PERMISSIONS_REQUIRED": "Veuillez sélectionner au moins une permission"
+  },
+  "STAFF": {
+    "CIN_TYPE": {
+      "TITLE": "Selectionner le type de CIN",
+      "PASSPORT": "Passeport",
+      "CIN": "CIN"
+    },
+    "CONTRACT_TYPE": {
+      "TITLE": "Selectionner le type de contrat",
+      "CDD": "CDD",
+      "CDI": "CDI",
+      "INTERIM": "INTERIM",
+      "STAGE": "STAGE"
+    },
+    "PERIODICITY": {
+      "TITLE": "Selectionner la périodicité",
+      "MONTHLY": "Mensuel",
+      "QUARTERLY": "Trimestriel",
+      "SEMIANNUAL": "Semestriel",
+      "ANNUAL": "Annuel"
+    },
+    "CIN_NUMBER": "Numéro de CIN",
+    "PASSPORT_NUMBER": "Numéro de passeport",
+    "CONTRACT_DURATION": "Durée du contrat",
+    "DATE_START": "Date de début",
+    "DATE_END": "Date de fin",
+    "SALARY": "Salaire",
+    "FUNCTION": "Fonction"
+  }
+}

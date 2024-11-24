@@ -1,0 +1,12 @@
+export * as AuthModule from './common/auth';
+export * as ModuleManagement from './back-office/module-management';
+export * as OnboardingModule from './client/onboarding';
+export * as UsersModule from './back-office/module-management/users-management';
+export * as PacksModule from './back-office/pack-management';
+export * as ClassModule from './client/class-management';
+export * as StudentModule from './client/manage-student';
+export * as RolesModule from './client/role-management';
+export * as UserPackModule from './client/user-pack-management';
+export * as CollaboratorModule from './client/collaborator-management';
+export * as BVGCommonModule from './common/bvg-common';
+export * as SchoolModule from './client/school-management';

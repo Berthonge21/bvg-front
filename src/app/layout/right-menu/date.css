@@ -1,0 +1,111 @@
+.rdp-root {
+  --rdp-accent-color: blue;
+  --rdp-accent-background-color: #f0f0ff;
+  --rdp-font-family: system-ui;
+  --rdp-day-font: inherit;
+  --rdp-day-height: 2.2rem;
+  --rdp-day-width: 2.3rem;
+  --rdp-day_button-border-radius: 100%;
+  --rdp-day_button-border: 1px solid transparent;
+  --rdp-day_button-height: var(--rdp-day-width);
+  --rdp-day_button-width: var(--rdp-day-height);
+  --rdp-selected-border: 1px solid var(--rdp-accent-color);
+  --rdp-selected-font: bold var(--rdp-font-family);
+  --rdp-disabled-opacity: 0.5;
+  --rdp-outside-opacity: 0.75;
+  --rdp-today-color: var(--rdp-accent-color);
+  --rdp-dropdown-gap: 0.5rem;
+  --rdp-month_caption-font: bold larger var(--rdp-font-family);
+  --rdp-months-gap: 1rem;
+  --rdp-nav_button-disabled-opacity: 0.5;
+  --rdp-nav_button-height: 1.5rem;
+  --rdp-nav_button-width: 1.5rem;
+  --rdp-nav-height: 2.75rem;
+  --rdp-range_middle-background-color: var(--rdp-accent-background-color);
+  --rdp-range_middle-font: normal medium var(--rdp-font-family);
+  --rdp-range_middle-foreground-color: white;
+  --rdp-range_middle-color: inherit;
+  --rdp-range_start-color: white;
+  --rdp-range_start-background: linear-gradient(
+    var(--rdp-gradient-direction),
+    transparent 50%,
+    var(--rdp-range_middle-background-color) 50%
+  );
+  --rdp-range_start-date-background-color: var(--rdp-accent-color);
+  --rdp-range_end-background: linear-gradient(
+    var(--rdp-gradient-direction),
+    var(--rdp-range_middle-background-color) 50%,
+    transparent 50%
+  );
+  --rdp-range_end-color: white;
+  --rdp-range_end-date-background-color: var(--rdp-accent-color);
+  --rdp-week_number-border-radius: 100%;
+  --rdp-week_number-border: 2px solid transparent;
+  --rdp-week_number-font: 400 small var(--rdp-font-family);
+  --rdp-week_number-height: var(--rdp-day-height);
+  --rdp-week_number-opacity: 0.75;
+  --rdp-week_number-width: var(--rdp-day-width);
+  --rdp-weeknumber-text-align: center;
+  --rdp-weekday-font: 700 smaller var(--rdp-font-family);
+  --rdp-weekday-opacity: 1;
+  --rdp-weekday-padding: 0.5rem 0rem;
+  --rdp-weekday-text-align: center;
+  --rdp-gradient-direction: 90deg;
+}
+
+.dayPicker {
+  --rdp-cell-size: 10px;
+  --rdp-accent-color: #00307e;
+  --rdp-background-color: #f9f9f9;
+  --rdp-primary-color: #00307e;
+}
+
+.rdp-month_caption {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.dayPicker .rdp-caption_label {
+  font-size: 14px;
+  color: #000000;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.rdp-nav {
+  position: absolute;
+  inset-block: -5px;
+
+}
+
+.rdp-chevron {
+  width: 18px;
+  height: 18px;
+}
+
+.dayPicker .rdp-outside {
+  color: #94a3b8;
+}
+
+.dayPicker .rdp-weekdays {
+  color: #000000;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.dayPicker .rdp-day {
+  font-weight: 500;
+  font-size: 11px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  height: 2.2rem;
+  width: 2.3rem;
+}
+
+.dayPicker .rdp-selected {
+  background-color: #00307e;
+  box-shadow: 4px 8px 18px rgba(37, 99, 235, 0.3);
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,11 @@
+export * as PACKS from './packs';
+export * as AUTH from './auth';
+export * as MODULE_MANAGEMENT from './module';
+export * as ONBOARDING from './onboarding';
+export * as USERS from './users';
+export * as CLASS_MANAGEMENT from './class';
+export * as STUDENTS from './students';
+export * as ROLE_MANAGEMENT from './role';
+export * as USER_PACK_MANAGEMENT from './user-pack';
+export * as COLLABORATOR from './collaborateur';
+export * as COMMON_TYPES from './common.models';

@@ -1,0 +1,17 @@
+export const studentInitialValues = {
+  firstName: '',
+  lastName: '',
+  birthDate: '',
+  birthPlace: '',
+  studentAddress: '',
+  parentFirstName: '',
+  parentLastName: '',
+  parentPhone1: '',
+  parentPhone2: '',
+  parentEmail: '',
+  sex: '',
+  classId: '',
+  schoolId: '',
+  amount: '',
+  paymentDate: '',
+};

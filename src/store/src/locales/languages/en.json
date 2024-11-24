@@ -1,0 +1,316 @@
+{
+  "SIDE_BAR": {
+    "DASHBOARD": "Dashboard",
+    "MANAGE_USERS": "Manage User's",
+    "MANAGE_MODULE": "Modules",
+    "MANAGE_OFFERS": "Packs",
+    "MANAGE_STUDENTS": "Manage Students",
+    "MANAGE_CLASSES": "Manage Classes",
+    "MANAGE_ADMIN": "My administration",
+    "MANAGE_STAFF": "Staff",
+    "MANAGE_ROLES": "Manage Roles",
+    "HELP_CENTER": "Help Center",
+    "SETTINGS": "Settings",
+    "PROFILE": "My Profile",
+    "LOG_OUT": "Logout"
+  },
+  "HELP_CENTER": {
+    "TITLE": "Need help?",
+    "DESCRIPTION": "Our team is here to help you with any information."
+  },
+  "PAGE": {
+    "OOPS": "Oops",
+    "NOT_FOUND": "Page not found",
+    "REDIRECT_MESSAGE": "We're sorry, we can't find the page you're looking for. You will be redirected to the previous page in 5 seconds or you can return to the home page by clicking the button below. "
+  },
+  "AUTH": {
+    "WELCOME_BACK": "Log in to your account",
+    "DESCRIPTION": "Good to see you again! please enter your details",
+    "LOGIN": {
+      "PLACEHOLDER": {
+        "EMAIL": "Please enter your email address",
+        "PASSWORD": "Please enter your password"
+      }
+    },
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "INVALID_CREDENTIALS_MESSAGE": "Please check your credentials and try again",
+    "FORGOT_PASSWORD": "Forgot password?",
+    "CONNECT": "Connect",
+    "HAVE_AN_ACCOUNT": "Already have an account? ",
+    "DONT_HAVE_AN_ACCOUNT": "Don't have an account?",
+    "SIGN_UP": "Sign up",
+    "SIGN_IN": "Sign in"
+  },
+  "SIGNUP": {
+    "DESCRIPTION": {
+      "STEP_ONE": "Please enter your information and proceed to the next step so we can create your account.",
+      "STEP_TWO": "Please enter your establishment information and proceed to the next step",
+      "STEP_THREE": "Finish your registration by choosing your pack"
+    },
+    "PLACEHOLDER": {
+      "SCHOOL": "Enter your school name",
+      "COUNTRY": "Select your country",
+      "CITY": "Select your city",
+      "ADDRESS": "Enter your address"
+    },
+    "USER_PROMOTER": "Promoter",
+    "SCHOOL": "School",
+    "COUNTRY": "Country",
+    "CITY": "City",
+    "ADDRESS": "Address",
+    "CHOOSE_PACKS": "Choose your pack",
+    "FIRST_NAME": "First Name",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "LAST_NAME": "Last Name",
+    "PHONE": "Phone"
+  },
+  "COMMON": {
+    "REQUIRED": "Required",
+    "REMEMBER_ME": "Remember me",
+    "MIN_LENGTH": "{{count}} characters minimum",
+    "CANCEL": "Cancel",
+    "VALIDATE": "Validate",
+    "CONFIRM": "Confirm",
+    "INFORMATION": "Information",
+    "BACK": "Back",
+    "NEXT": "Next",
+    "ALL": "All",
+    "SELECT_A_COUNTRY": "Select a country",
+    "FOLLOW_US": "Follow us",
+    "ACTION": "Actions",
+    "FR: ": "Français ",
+    "EN: ": "English",
+    "PAGE": "Page",
+    "GO_TO_PAGE": "Go to page",
+    "TO": "to",
+    "ERROR_CONNEXION": "Connection error try again later",
+    "UNAUTHORIZED": "Unauthorized access",
+    "NOTIFICATION": "Notification",
+    "FORBIDDEN": "Access prohibited",
+    "SERVER_ERROR": "Server error",
+    "NO_DATA_FOUND": "No data found",
+    "SUCCESS_OPERATION": "Operation successful",
+    "STATUS": {
+      "ACTIVE": "Active",
+      "INACTIVATE": "Inactive"
+    },
+    "RESET": "Reset",
+    "ADD": "Add",
+    "REFRESH": "Refresh data",
+    "FILTER": "Filter",
+    "PAYMENT_STATUS": {
+      "TITLE": "Payment status",
+      "INSTALLMENT_PAID": "Installment paid",
+      "PAID": "Paid",
+      "NO_PAID": "No paid",
+      "INSCRIPTION_FEES": "Inscription",
+      "SCHOOLING": "Schooling"
+    },
+    "DATE_FORMAT": "DD/MM/YYYY",
+    "SEX": {
+      "MALE": "Male",
+      "FEMALE": "Female"
+    }
+  },
+  "BAR_CHART": {
+    "PACKS_MOVEMENTS": "Packs subscription rate",
+    "ACTIVITY": "Activity",
+    "BASIC": "Basic",
+    "STANDARD": "Standard",
+    "PREMIUM": "Premium",
+    "SCHOOLS": "Number of schools",
+    "NUMBER_OF_SCHOOLS_BY_MONTH": "Number of schools by month",
+    "MONTHS": {
+      "January": "January",
+      "February": "February",
+      "March": "March",
+      "April": "April",
+      "May": "May",
+      "June": "June",
+      "July": "July",
+      "August": "August",
+      "September": "September",
+      "October": "October",
+      "November": "November",
+      "December": "December"
+    },
+    "HIGHER_SECONDARY": "Higher secondary",
+    "PRIMARY": "Primary",
+    "SECONDARY": "Secondary",
+    "FINANCE_BY_CYCLE": "Finance by cycle",
+    "EXPECTED_AMOUNT": "Expected amount",
+    "RECEIVED_AMOUNT": "Received amount",
+    "REMAINING_AMOUNT": "Remaining amount"
+  },
+  "DONUT_CHART": {
+    "FINANCE_GLOBAL_AMOUNT": "Total of expenses",
+    "FINANCE_INCOMES&OUTCOMES": "Incomes VS Expenses",
+    "CATEGORY": {
+      "SCHOLARSHIP": "Scholarship",
+      "EXPENSES": "Expenses",
+      "EXPENSES_MISCELLANEOUS": "Expenses Miscellaneous",
+      "REVENUES": "Revenues"
+    }
+  },
+  "OFFERS": {
+    "LIST": "List of offers",
+    "TITLE": "Simple and flexible pricing",
+    "DESCRIPTION": "Our pricing system offers a range of options to meet your location-related needs. Explore our plans and find the one that best suits you, without compromising on quality and performance.",
+    "MODULE_LIST": "List of modules",
+    "FORMS": {
+      "CREATE": "Create a pack",
+      "EDIT": "Edit a pack",
+      "PACK_TYPE": "Pack type",
+      "AMOUNT": "Amount",
+      "SELECT_MODULE": "Select a module",
+      "ADD_MODULE": "Add a module"
+    },
+    "TYPE": {
+      "BASIC": "Basic",
+      "STANDARD": "Standard",
+      "PREMIUM": "Premium"
+    }
+  },
+  "DASHBOARD": {
+    "WELCOME": "Welcome to BVG-INNOVATION School for the good management of education."
+  },
+  "USERS": {
+    "LIST": "List of users",
+    "RECENT_USERS": "Recent registered users",
+    "WELCOME_MESSAGE": "Hello and welcome,",
+    "ACTIVE_INACTIVE_TITLE": "Active/Inactive users",
+    "TOTAL_ACTIVE_&_INACTIVE": "Total users",
+    "ACTIVE": "Active",
+    "INACTIVE": "Inactive"
+  },
+  "ACTION_BUTTON": {
+    "EDIT": "Edit",
+    "DELETE": "Delete",
+    "VIEW": "Show",
+    "CREATE": "Create",
+    "ACTIVATE": "Activate",
+    "DEACTIVATE": "Deactivate",
+    "PAY": "Pay",
+    "DOWNLOAD": "Download"
+  },
+  "MANAGE_MODULE": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description",
+    "FEATURE_NAME": "Feature name",
+    "FEATURE_DESCRIPTION": "Feature description",
+    "ADD_FEATURES": "Add features",
+    "FEATURES": "Features",
+    "STATUS": "Status"
+  },
+  "MODAL_ACTION": {
+    "ACTIVATE_TITLE": "Activate {{name}}",
+    "ACTIVATE_MESSAGE": "Do you really want to activate {{name}}?",
+    "DEACTIVATE_TITLE": "Deactivate {{name}}",
+    "DEACTIVATE_MESSAGE": "Do you really want to deactivate {{name}}?",
+    "DETAILS_TITLE": "Details {{name}}",
+    "DELETE_TITLE": "Delete {{name}}",
+    "DELETE_MESSAGE": "Do you really want to delete {{name}}?"
+  },
+  "STUDENT": {
+    "STUDENT": "Student",
+    "STUDENT_ID": "Student ID",
+    "FIRST_NAME": "First name",
+    "LAST_NAME": "Last name",
+    "BIRTHDATE": "Birthdate",
+    "BIRTHDATE_PLACE": "Birthplace",
+    "SEX": "Sex",
+    "EMAIL": "Email",
+    "PHONE": "Phone 1",
+    "PHONE2": "Phone 2",
+    "ADDRESS": "Address",
+    "GRADE": "Grade",
+    "SCHOOL": "School",
+    "SCHOOL_NAME": "School name",
+    "CLASS": "Class",
+    "CLASS_NAME": "Class name",
+    "PARENT_INFORMATION": "Parent information",
+    "PERSONAL_INFORMATION": "Personal information",
+    "PROFESSIONAL_INFORMATION": "Professional information",
+    "ADD_TITLE": "Add student",
+    "EDIT_TITLE": "Edit student",
+    "REGISTRATION_DATE": "Inscription date",
+    "REGISTRATION_FEES": "Registration fees",
+    "REGISTRATION_FEES_AMOUNT": "Registration fees amount",
+    "TRANSACTION": {
+      "TITLE": "List of Payments made",
+      "MONTHS": "Choose month",
+      "PAYMENT_TYPE": "Payment type",
+      "PAYMENT_DATE": "Payment Date",
+      "AMOUNT_TO_PAY": "Amount to pay",
+      "RECEIVED_AMOUNT": "Amount received",
+      "DETAIL": "Please fill in the payment information",
+      "ADD": "Add payment",
+      "EDIT": "Modify a payment",
+      "DESCRIPTION": "Description"
+    }
+  },
+  "MANAGE_CLASSES": {
+    "FORMS": {
+      "ADD_TITLE": "Add a class",
+      "EDIT_TITLE": "Edit a class",
+      "NAME": "Class name",
+      "AMOUNT": "Amount"
+    },
+    "AMOUNT_BY_MONTHS": "Class amount by month",
+    "STUDENT_TOTAL": "Number of students",
+    "STUDENT_LIST": "List of students"
+  },
+  "ROLE_MANAGEMENT": {
+    "CATEGORY_LIST": {
+      "MANAGE-STUDENTS": "Manage students",
+      "TRANSACTION": "Manage student transactions",
+      "COLLABORATOR-MANAGEMENT": "Manage users"
+    },
+    "FEATURE_LIST": {
+      "CREATE-STUDENTS": "Create a student",
+      "UPDATE-STUDENTS": "Update a student",
+      "DELETE-STUDENTS": "Delete a student",
+      "CREATE-TRANSACTION": "Create a transaction",
+      "UPDATE-TRANSACTION": "Update a transaction",
+      "DELETE-TRANSACTION": "Delete a transaction",
+      "ADD-COLLABORATOR": "Add a user",
+      "UPDATE-COLLABORATOR": "Update a user",
+      "DELETE-COLLABORATOR": "Delete a user",
+      "VIEW-LIST-COLLABORATOR": "View the list of users",
+      "PAY-COLLABORATOR": "Pay a user"
+    },
+    "HELP_MESSAGE": "Select the permissions you want to grant to the user you just added.",
+    "PERMISSIONS": "Permissions",
+    "PERMISSIONS_REQUIRED": "Please select at least one permission"
+  },
+  "STAFF": {
+    "CIN_TYPE": {
+      "TITLE": "Select the type of CIN",
+      "PASSPORT": "Passport",
+      "CIN": "CIN"
+    },
+    "CONTRACT_TYPE": {
+      "TITLE": "Select the type of contract",
+      "CDD": "CDD",
+      "CDI": "CDI",
+      "INTERIM": "INTERIM",
+      "STAGE": "STAGE"
+    },
+    "PERIODICITY": {
+      "TITLE": "Select the periodicity",
+      "MONTHLY": "Monthly",
+      "QUARTERLY": "Quarterly",
+      "SEMIANNUAL": "Semiannual",
+      "ANNUAL": "Annual"
+    },
+    "CIN_NUMBER": "CIN number",
+    "PASSPORT_NUMBER": "Passport number",
+    "CONTRACT_DURATION": "Contract duration",
+    "DATE_START": "Start date",
+    "DATE_END": "End date",
+    "SALARY": "Salary",
+    "FUNCTION": "Function"
+  }
+}
