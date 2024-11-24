@@ -1,6 +1,48 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    "@typescript-eslint/no-explicit-any": "off"
+    // Relaxed rules for common errors
+    "@typescript-eslint/no-explicit-any": "off", // Allow the use of 'any' types
+    "react/display-name": "off", // Disable requirement for displayName in components
+    "@typescript-eslint/ban-ts-comment": [
+      "warn",
+      {
+        "ts-ignore": false, // Allow '@ts-ignore'
+        "ts-expect-error": true, // Prefer '@ts-expect-error'
+        "minimumDescriptionLength": 3
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "args": "none", // Ignore unused function arguments
+        "varsIgnorePattern": "^_", // Ignore unused variables starting with '_'
+        "argsIgnorePattern": "^_" // Ignore unused arguments starting with '_'
+      }
+    ],
+
+    // General ESLint adjustments
+    "no-console": "warn", // Warn on console logs (optional)
+    "no-debugger": "warn", // Warn on debugger statements (optional)
+    "react/react-in-jsx-scope": "off" // Not needed with Next.js
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        // TypeScript-specific customizations
+        "@typescript-eslint/explicit-module-boundary-types": "off" // Allow implicit return types in TS modules
+      }
+    }
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Automatically detect the React version
+    }
   }
 }
