@@ -22,7 +22,7 @@ const SchoolStats = () => {
     dispatch(UsersModule.actions.usersStatsSchoolsAction());
   }, [dispatch]);
 
-  const formatDataForChart = (data: any) => {
+  const formatDataForChart = (data: []) => {
     const months = generateMonthlyData();
     const counts = Array(12).fill(0);
 
