@@ -1,7 +1,7 @@
 import { CreateOutsideToast } from '_components/toast/Toast';
 import { ToastPosition, ToastStatus } from '_components/toast/model/toast';
 import { getI18n } from 'react-i18next';
-import { AlertStatus } from '@chakra-ui/react/dist/types/alert/alert-context';
+import { AlertStatus } from '@chakra-ui/react';
 
 export const getMessage = (key: any, fallback: string) => {
   return getI18n().t(key) || fallback;
@@ -15,7 +15,7 @@ export const handleApiError = (response: any) => {
   );
 
   let description = '';
-  let title = getMessage('COMMON.NOTIFICATION', 'Notification');
+  const title = getMessage('COMMON.NOTIFICATION', 'Notification');
   switch (statusCode) {
     case 401:
       description =
@@ -53,7 +53,7 @@ export const handleApiSuccess = (response: any, toastType?: AlertStatus) => {
   );
 
   let description = '';
-  let title = getMessage('COMMON.NOTIFICATION', 'Notification');
+  const title = getMessage('COMMON.NOTIFICATION', 'Notification');
   switch (statusCode) {
     case 200:
       description =
