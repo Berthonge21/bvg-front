@@ -9,6 +9,8 @@ import {
   Title,
   Plugin,
   ChartData,
+  TooltipItem,
+  ChartOptions,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import { Box, Center, Flex, Switch, Text } from '@chakra-ui/react';
@@ -30,6 +32,12 @@ ChartJS.register(
   Legend,
 );
 
+type FormatData = {
+  date: string[];
+  values: Record<string, number[]>;
+  maxValues?: Record<string, number>;
+};
+
 const CustomLegend: FC<CustomLegendProps> = ({
   data,
   chartRef,
@@ -38,21 +46,13 @@ const CustomLegend: FC<CustomLegendProps> = ({
   return (
     <Flex direction="row" justifyContent={'center'} gap={'100px'}>
       {data.datasets.map(
-        (
-          label: {
-            backgroundColor: string;
-            label: any;
-          },
-          index: any,
-        ) => (
+        (label: { backgroundColor: string; label: string }, index: number) => (
           <Flex key={index} alignItems="center" mb={2} cursor="pointer">
             <Switch
               size="md"
-              colorScheme={getColorSchemaByCategory(
-                label.backgroundColor as string,
-              )}
+              colorScheme={getColorSchemaByCategory(label.backgroundColor)}
               defaultChecked={true}
-              color={label.backgroundColor as string}
+              color={label.backgroundColor}
               marginRight={2}
               onChange={event => {
                 setSelectedCycle(label.label);
@@ -84,9 +84,12 @@ const BarChart: FC<BarChartProps> = ({
   decimal = 3,
 }) => {
   const [selectedCycle, setSelectedCycle] = useState<string | null>(null);
-  const chartRef = useRef<any>(null);
+  const chartRef = useRef<ChartJS<'bar'> | null>(null);
   const { t } = useTranslation();
-  const [formatData, setFormatData] = useState<any>([]);
+  const [formatData, setFormatData] = useState<FormatData>({
+    date: [],
+    values: {},
+  });
 
   useEffect(() => {
     if (dataChart) {
@@ -109,7 +112,7 @@ const BarChart: FC<BarChartProps> = ({
     })),
   };
 
-  const options: any = {
+  const options: ChartOptions<'bar'> = {
     maintainAspectRatio: false,
     plugins: {
       title: {
@@ -120,8 +123,8 @@ const BarChart: FC<BarChartProps> = ({
       },
       tooltip: {
         callbacks: {
-          label: function (context: { raw: any; dataset: { label: any } }) {
-            const value = context.raw;
+          label: function (context: TooltipItem<'bar'>) {
+            const value = context.raw as number;
             let formattedValue;
             if (currency && decimal) {
               if (currency === '$') {
@@ -140,7 +143,9 @@ const BarChart: FC<BarChartProps> = ({
     hover: {
       mode: 'nearest',
       intersect: true,
-      animationDuration: 400,
+    },
+    animation: {
+      duration: 400,
     },
     responsive: true,
     interaction: {
@@ -163,12 +168,11 @@ const BarChart: FC<BarChartProps> = ({
         ticks: {
           stepSize: Math.ceil(
             Math.max(
-              ...Object.keys(formatData.maxValues || {}).map(
-                key => formatData.maxValues[key] || 0,
+              ...Object.keys(formatData.maxValues ?? {}).map(
+                key => formatData.maxValues?.[key] ?? 0,
               ),
             ) / 5,
           ),
-          maxTicksLimit: 4,
         },
         stacked: true,
         border: {
@@ -184,16 +188,17 @@ const BarChart: FC<BarChartProps> = ({
       const {
         data,
         ctx,
-        tooltip: { active },
+        tooltip,
         chartArea: { top, height },
         scales: { x },
       } = chart;
+
       ctx.save();
 
       const segmentWidth = x.width / (data.labels?.length ?? 1) - 20;
 
-      if (active && active[0]) {
-        const activeElement = active[0];
+      if (tooltip && Array.isArray(tooltip.active) && tooltip.active[0]) {
+        const activeElement = tooltip.active[0];
         const xCoor =
           x.getPixelForValue(activeElement.index) - segmentWidth / 2;
         const gradient = ctx.createLinearGradient(
@@ -207,6 +212,7 @@ const BarChart: FC<BarChartProps> = ({
         ctx.fillStyle = gradient;
         ctx.fillRect(xCoor, top, 50, height);
       }
+
       ctx.restore();
     },
   };
